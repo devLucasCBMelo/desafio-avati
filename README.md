@@ -9,6 +9,11 @@ Foi pedido no Processo Seletivo (PS) que fizéssemos uma página de Login com os
 ## Como rodar a aplicação
 
 1. Clone o projeto em sua máquina.
+
+```bash
+git clone git@github.com:devLucasCBMelo/desafio-avati.git
+```
+
 2. Acesse o repositório do projeto
 
 ```bash
