@@ -23,5 +23,11 @@ export const HeaderContainer = styled.div`
     border-color: #e9f035;
     color: #e9f035;
     font-weight: bold;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color: #e9f035;
+    color: black;
   }
 `

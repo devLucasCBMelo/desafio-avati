@@ -60,7 +60,9 @@ const FormContainer = () => {
         {passwordError && (
           <p className={styles.errorMensage}>*A senha precisa ter 6 caracteres</p>
         )}
-        <button type="submit">Entrar</button>
+        <div>
+          <button type="submit">Entrar</button>
+        </div>
       </form>
     </FormDiv>
   )

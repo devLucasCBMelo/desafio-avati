@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const FormDiv = styled.div`
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   width: 100%;
@@ -10,9 +11,36 @@ export const FormDiv = styled.div`
   padding-bottom: 45px;
   height: 700px;
 
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
   button {
     margin-top: 15px;
     background-color: #e9f035;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.2s ease;
+  }
+
+  button:hover {
+    background-color: black;
+    color: #e9f035;
+  }
+
+  button:active {
+    background-color: #c7d12d;
+    transform: scale(0.95);
   }
 `
 
