@@ -39,3 +39,25 @@ bun dev
 ```
 
 Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado.
+
+## Como utilizar a aplicação
+
+A aplicação possui uma tela de login simples, onde o usuário pode inserir um e-mail e uma senha.
+
+### Email
+
+Pode ser inserido qualquer e-mail válido, por exemplo:
+
+```
+meu-email@email.com
+```
+
+### Senha
+
+A senha apenas precisa conter 6 ou mais caracteres, por exemplo:
+
+```
+123456
+```
+
+Com isso, só precisa clicar no botão "Entrar" para ser levado à próxima página.
