@@ -11,6 +11,12 @@ export const FormDiv = styled.div`
   padding-bottom: 45px;
   height: 700px;
 
+  form {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+  }
+
   div {
     display: flex;
     align-items: center;

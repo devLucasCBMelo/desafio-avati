@@ -6,6 +6,10 @@ Foi pedido no Processo Seletivo (PS) que fizéssemos uma página de Login com os
 - Senha.
 - Botão "Entrar".
 
+## Sobre a aplicação
+
+A aplicação foi toda construída em Next.js, ela contém duas páginas, sendo a primeira a página principal e a segunda que seria a página do usuário.
+
 ## Como rodar a aplicação
 
 1. Clone o projeto em sua máquina.
